@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <meta name="format-detection" content="telephone=no"/>
 
-    <title>Hope</title>
+    <title>Silk</title>
     <meta name="description" content=""/>
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
 
@@ -17,11 +17,12 @@
 <body>
 
 <div class="body-padding"></div>
+<div id="loader-wrapper"></div>
 
 <header class="header">
     <div class="header-main container d-flex align-middle align-justify">
         <a href="index.html" class="header-logo align-middle">
-            <img src="assets/img/logo.svg" alt="logo company" class="header-logo__icon">
+            <img src="assets/img/logo-header.png" alt="logo company" class="header-logo__icon">
         </a>
 
         <div class="burger__wrap js-header align-middle align-center">
@@ -34,445 +35,316 @@
 
         <div class="navbar">
             <nav class="main-navigation">
-                <ul class="menu">
-                    <li class="menu-item  current-menu-item">
-                        <a href="about.html">Про нас</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="blog.html">Новини</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="opportunities.html">Можливості</a>
-                    </li>
 
+                <ul class="menu">
+                    <li class="menu-item ">
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html">Про нас </a>
+                    </li>
+                    <li class="menu-item current-menu-item">
+                        <a href="catalog.html">Дилерам</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="blog.html">Новини </a>
+                    </li>
                     <li class="menu-item">
                         <a href="contacts.html">Контакти</a>
                     </li>
-                    <li class="menu-item">
-                        <a href="projects.html">Проєкти</a>
-                    </li>
                 </ul>
+
             </nav>
+            <ul class="social__list ">
+                <li class="social__item">
+                    <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                        <i class="icon-instagram"></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                        <i class="icon-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                        <i class="icon-facebook"></i>
+                    </a>
+                </li>
 
-            <div class="lang__wrap --relative">
-                <div class="lang__current">
-                    <a href="/uk/">Ukr</a><!--поточна мова-->
-                </div>
 
-                <ul class="lang">
-                    <li class="lang-item"><a href="">Ukr</a>
-                    </li>
-                    <li class="lang-item "><a href="">Eng</a>
-                    </li>
-                </ul>
-            </div>
-
-
-            <a href="" class="btn btn-primary header-btn d-block text-center text-uppercase text-bold open-popup"
-               data-rel="more">Задонатити</a>
+            </ul>
         </div>
     </div>
 </header>
 
 <main class="main">
 
-    <section class="section s-projects">
-        <div class="container --relative">
-
-            <div class="row m-row">
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-11 col-lg-11 col-md-11 col-sm-11 col-xs-12">
+                <div class="kama_breadcrumbs">
+                <span>
+                    <a href="">
+                        <span>Головна</span>
                     </a>
+                </span>
+                    <span class="kb_sep">/</span>
+                    <span class="kb_title">Дилерам</span>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            ЗАбезпечення продуктами харчування
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Гуманітарна допомога на фронті
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            ЗАбезпечення продуктами харчування
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Гуманітарна допомога на фронті
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            ЗАбезпечення продуктами харчування
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase mb-20">
-                            Гуманітарна допомога на фронті
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 column ">
-                    <a href="events-inner.html" class="project-card">
-                        <div class="project-card__heading text-xl text-bold --relative text-center d-flex align-middle align-center text-uppercase">
-                            Психологічна реабілітація
-                        </div>
-                        <div class="project-card__content">
-                            <h5 class="project-card__title  text-bold mb-20">Hope for Kids</h5>
-                            <div class="project-card__desc mb-20">Проєкт забезпечення цивільного населення продуктами
-                                харчування та особистої гігієни
-                            </div>
-                            <div class="btn-more d-flex align-middle align-left"><span
-                                    class="--relative">Детальніше</span> <i
-                                    class="icon-ar-right"></i></div>
-                        </div>
-                    </a>
-                </div>
-
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="section s-partner">
+    <section class="s-presentation s-info">
         <div class="container">
-            <img src="assets/img/decor-1.svg" alt="decor icon" class="decor">
-
-
-            <div class="row swiper-entry s-partner__row">
-                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                    <div class="swiper-button__wrap d-flex align-middle align-left">
-                        <div class="swiper-button-prev d-md-flex align-center align-middle">
-                            <i class="icon-arrow-left"></i>
-                        </div>
-                        <div class="swiper-button-next d-md-flex align-center align-middle">
-                            <i class="icon-arrow-right"></i>
-                        </div>
+            <div class="row m-row">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 column">
+                    <h1 class="heading heading-font text-uppercase text-xl text-regular">Дилерам</h1>
+                    <div class="heading__sub text-bold">Чому варто працювати саме з нами</div>
+                    <div class="text text-m mb-28 editor-style "><p>Наша компанія здійснює оптову та роздрібну торгівлю різних
+                        видів
+                        меблевих
+                        тканин
+                        по всій території України як зі складу, так і на замовлення.</p>
+                        <p>Колекції тканин, представлені нашою компанією, відповідають всім світовим стандартам якості,
+                            відповідно є екологічно чистими та безпечними.</p>
+                        <p>Нашою метою є створення довготривалих відносин з клієнтами та партнерами. Ми знаємо, що
+                            єдиний
+                            вірний шлях до цього – побудова довіри. Саме тому чесність є одним із найголовніших
+                            елементів
+                            роботи для нас</p>
                     </div>
+                    <a href="/images/myw3schoolsimage.jpg" download
+                       class="btn-download --relative heading-font align-middle"><i
+                            class="icon-file"></i> Презентація компанії</a>
                 </div>
-                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
-
-                    <div class="swiper-container"
-                         data-options='{"slidesPerView":2, "spaceBetween": 15, "speed": 1200, "centeredSlides": false, "loop": true, "breakpoints": {"575": {"slidesPerView": 3,"spaceBetween": 15, "autoHeight": false}, "992": {"slidesPerView": 4, "spaceBetween": 20}, "1200": {"slidesPerView": 5, "spaceBetween": 40}}}'>
-
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-2.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-3.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-2.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-3.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-2.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-3.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="s-partner__item d-flex align-middle text-center">
-                                    <div class="s-partner__img-wrap">
-                                        <img src="assets/img/partner-1.png" alt="" class="s-partner__img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 column">
+                    <img src="assets/img/news-2.png" alt="" class="s-info__img">
                 </div>
             </div>
         </div>
     </section>
 
+
+    <section class="s-cooperation">
+        <div class="container">
+            <div class="row">
+                <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h3 class="heading heading-font text-uppercase text-xl text-regular mb-28">
+                        умови співпраці
+                    </h3>
+                    <div class="text-m">
+                        <p>Наша компанія здійснює оптову та роздрібну торгівлю різних видів меблевих тканин по всій
+                            території
+                            України як зі складу, так і на замовлення.</p>
+                        <p>Колекції тканин, представлені нашою компанією, відповідають всім світовим стандартам якості,
+                            відповідно є екологічно чистими та безпечними.</p>
+                        <p> Нашою метою є створення довготривалих відносин з клієнтами та партнерами. Ми знаємо, що
+                            єдиний
+                            вірний шлях до цього – побудова довіри. Саме тому чесність є одним із найголовніших
+                            елементів
+                            роботи
+                            для нас</p>
+                    </div>
+
+                    <ul class="stage-work">
+                        <li class="stage-work__item align-middle">
+                            <div class="stage-work__img-wrap d-flex align-middle align-center">
+                                <img src="assets/img/cooperation-1.svg" alt="" class="stage-work__img">
+                            </div>
+
+                            <div class="text-m text-light">Залишаєте заявку на сайті або за телефоном</div>
+                        </li>
+                        <li class="stage-work__item align-middle">
+                            <div class="stage-work__img-wrap d-flex align-middle align-center">
+                                <img src="assets/img/cooperation-2.svg" alt="" class="stage-work__img">
+                            </div>
+
+                            <div class="text-m text-light">Залишаєте заявку на сайті або за телефоном</div>
+                        </li>
+                        <li class="stage-work__item align-middle">
+                            <div class="stage-work__img-wrap d-flex align-middle align-center">
+                                <img src="assets/img/cooperation-3.svg" alt="" class="stage-work__img">
+                            </div>
+
+                            <div class="text-m text-light">Залишаєте заявку на сайті або за телефоном</div>
+                        </li>
+                        <li class="stage-work__item align-middle">
+                            <div class="stage-work__img-wrap d-flex align-middle align-center">
+                                <img src="assets/img/cooperation-4.svg" alt="" class="stage-work__img">
+                            </div>
+
+                            <div class="text-m text-light">Залишаєте заявку на сайті або за телефоном</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-presentation s-info">
+        <div class="container">
+            <div class="row m-row">
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 column">
+                    <img src="assets/img/news-2.png" alt="" class="s-info__img">
+                </div>
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 column">
+                    <h3 class="heading heading-font text-uppercase text-xl text-regular">Каталог новинок</h3>
+                    <div class="heading__sub text-bold">Чому варто працювати саме з нами</div>
+                    <div class="text-m mb-28 editor-style"><p>Наша компанія здійснює оптову та роздрібну торгівлю різних
+                        видів
+                        меблевих
+                        тканин
+                        по всій території України як зі складу, так і на замовлення.</p>
+                        <p>Колекції тканин, представлені нашою компанією, відповідають всім світовим стандартам якості,
+                            відповідно є екологічно чистими та безпечними.</p>
+                        <p>Нашою метою є створення довготривалих відносин з клієнтами та партнерами. Ми знаємо, що
+                            єдиний
+                            вірний шлях до цього – побудова довіри. Саме тому чесність є одним із найголовніших
+                            елементів
+                            роботи для нас</p>
+                    </div>
+                    <a href="/images/myw3schoolsimage.jpg" download
+                       class="btn-download --relative heading-font align-middle"><i
+                            class="icon-file"></i> Каталог новинок</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="s-presentation s-info">
+        <div class="container">
+            <div class="row m-row">
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 column ">
+                    <h1 class="heading heading-font text-uppercase text-xl text-regular">Робоча колекцiя</h1>
+                    <div class="heading__sub text-bold">Чому варто працювати саме з нами</div>
+                    <div class="text-m mb-28 editor-style"><p>Наша компанія здійснює оптову та роздрібну торгівлю різних
+                        видів
+                        меблевих
+                        тканин
+                        по всій території України як зі складу, так і на замовлення.</p>
+                        <p>Колекції тканин, представлені нашою компанією, відповідають всім світовим стандартам якості,
+                            відповідно є екологічно чистими та безпечними.</p>
+                        <p>Нашою метою є створення довготривалих відносин з клієнтами та партнерами. Ми знаємо, що
+                            єдиний
+                            вірний шлях до цього – побудова довіри. Саме тому чесність є одним із найголовніших
+                            елементів
+                            роботи для нас</p>
+                    </div>
+                    <a href="/images/myw3schoolsimage.jpg" download
+                       class="btn-download --relative heading-font align-middle"><i
+                            class="icon-file"></i> Робоча колекцiя</a>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 column">
+                    <img src="assets/img/news-2.png" alt="" class="s-info__img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section s-cta">
+        <div class="container">
+            <div class="row align-left align-middle s-cta__bg">
+                <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                    <h2 class="heading text-xl heading-font text-regular">Замовити зворотній зв'язок</h2>
+                </div>
+
+                <div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="s-cta__form">
+                        <form>
+                            <div class="row m-row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 column">
+                                    <div class="form-control">
+                                        <input class="form-control__input " type="text" name="" value=""
+                                               placeholder="Ваше ім'я" title="">
+                                    </div>
+                                    <div class="form-control">
+                                        <input class="form-control__input" type="tel" name="" value=""
+                                               placeholder="Ваш телефон" title="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row m-row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 column">
+                                    <input type="submit" value="Відправити"
+                                           class="btn btn-white  text-center text-regular">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <footer class="footer">
-    <div class="container ">
-        <div class="row footer__content">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="container">
+        <div class="row align-middle ">
+            <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-xs-4">
                 <a href="index.html" class="footer-logo">
-                    <img src="assets/img/logo.svg" alt="logo company" class="footer-logo__icon">
+                    <img src="assets/img/logo.png" alt="logo company" class="footer-logo__icon">
                 </a>
-                <div class="footer-logo__desc text-light">If you have any questions, please don’t hesitate to contact
-                    us
-                </div>
             </div>
 
-            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 d-flex align-center">
-                <div>
-                    <ul class="contacts__list">
-                        <li class="contacts__list--item">
-                            <span class="text-bold"> Email:</span><a
-                                href="mailto:charitablefoundationhope.ua@gmail.com">charitablefoundationhope.ua@gmail.com</a>
-                        </li>
-                        <li class="contacts__list--item">
-                            <span class="text-bold">Phone:</span><a href="tel:+380673265205">+380 (67) 326 52 05</a>
-                        </li>
-                        <li class="contacts__list--item">
-                            <span class="text-bold">Registered Charity:</span> USREOU 44681121
-                        </li>
+            <div class="col-xl-7 col-lg-7 col-md-6 col-sm-8 col-xs-8 d-flex align-center">
 
-                    </ul>
-                </div>
+                <ul class="menu">
+                    <li class="menu-item">
+                        <a href="index.html">Головна</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="about.html">Про нас </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="catalog.html">Дилерам</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="blog.html">Новини </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="contacts.html">Контакти</a>
+                    </li>
+                </ul>
+
             </div>
 
-            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 d-flex align-right">
-                <div class="footer__content--col">
-                    <ul class="social__list ">
-                        <li class="social__item">
-                            <a href="" target="_blank" class="social__link d-flex align-middle align-center">
-                                <i class="icon-instagram"></i>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="" target="_blank" class="social__link d-flex align-middle align-center">
-                                <i class="icon-whatsapp"></i>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="" target="_blank" class="social__link d-flex align-middle align-center">
-                                <i class="icon-facebook"></i>
-                            </a>
-                        </li>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 d-flex align-right social__list-wrap">
+
+                <ul class="social__list ">
+                    <li class="social__item">
+                        <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                            <i class="icon-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                            <i class="icon-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" target="_blank" class="social__link d-flex align-middle align-center">
+                            <i class="icon-facebook"></i>
+                        </a>
+                    </li>
 
 
-                    </ul>
+                </ul>
 
-                    <ul class="card-list d-flex align-middle">
-                        <li>
-                            <img src="assets/img/card1.png" alt="">
-                        </li>
-                        <li>
-                            <img src="assets/img/card2.png" alt="">
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div class="row footer__copyright --relative">
-            <div class="col-xl-8 col-lg-7 col-md-6 col-sm-12 col-xs-12 ">
-                <div class="footer__copyright--text ">Development by
-                    <a href="" target="_blank">WebTune</a></div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="footer__copyright--text text-light text-m"><a href="www.silk.com" target="_blank"
+                                                                          class="text-light text-m">www.silk.com</a> ©
+                    2023 Усі права захищені
+                </div>
             </div>
-            <div class="col-xl-4 col-lg-5 col-md-6 col-sm-12 col-xs-12 ">
-                <ul class="menu d-flex  align-justify">
-                    <li class="menu-item">
-                        <a href="">Privacy Policy</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="">Offer Agreement</a>
-                    </li>
-                </ul>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="footer__copyright--text text-light text-m text-right">Development by
+                    <a href="" target="_blank" class="text-light text-m">WebTune</a></div>
             </div>
         </div>
     </div>
