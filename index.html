@@ -18,8 +18,8 @@
 
 
 <div id="loader-wrapper"></div>
-
-<header class="header">
+<!-- тільки на головну сторінку потрібно додати до header клас transparent-->
+<header class="header transparent">
     <div class="header-main container d-flex align-middle align-justify">
         <a href="index.html" class="header-logo align-middle">
             <img src="assets/img/logo-header.png" alt="logo company" class="header-logo__icon">
@@ -80,104 +80,95 @@
 
 <main class="main">
 
-    <section class="animation banner banner-main ">
-        <div class="container">
-            <div class="row align-right">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 --relative">
-
-                    <div class="swiper-entry  --relative">
-                        <div class="swiper-container"
-                             data-options='{"speed": 1200, "parallax":false, "slidesPerView":1, "spaceBetween": 10, "loop": true, "customFraction": true }'>
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="banner__inner row">
-
-                                        <div class="bg" data-swiper-parallax="30%"
-                                             style="background-image: url('assets/img/banner-2.png'); "></div>
-
-
-                                        <div class="banner__content text-left d-flex align-middle">
-
-
-                                            <div>
-
-
-                                                <div class="banner__title overlap text-uppercase heading-font text-bold text-xl">
-                                                    Хто МИ?
-                                                </div>
-                                                <div class="banner__desc overlap  heading-font text-bold text-l">
-                                                    <b>HOPE UA</b> — Український Благодійний фонд, спрямований на
-                                                    забезпечення щасливого майбутнього українським дітям та сімʼям, які
-                                                    постраждали від війни.
-                                                </div>
-                                                <a href=""
-                                                   class="banner__more btn btn-primary text-center">Задонатити</a>
+    <section class="banner swiper-entry">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="swiper-container"
+                         data-options='{"speed": 1200, "parallax":false, "slidesPerView":1, "spaceBetween": 0, "loop": true, "customFraction": false }'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="banner__inner">
+                                    <div class="parallax-bg">
+                                        <div class="bg rellax full_bg_slider" data-swiper-parallax="30%"
+                                             style="background-image: url('assets/img/news-1.png'); ">
+                                        </div>
+                                    </div>
+                                    <div class="banner__content text-center d-flex align-center align-middle">
+                                        <div class="">
+                                            <div class="banner__title text-right  heading-font text-xl">
+                                                Створюємо <span>комфорт</span>
                                             </div>
+                                            <div class="banner__desc text-light">
+
+
+                                                Ваш надійний постачальник меблевих тканин
+                                            </div>
+                                            <a href="" class="btn btn-primary">Дізнатись про нас</a>
+                                            <a href="" class="btn btn-white">Зв’язатись з нами</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="banner__inner row">
-
-                                        <div class="bg" data-swiper-parallax="30%"
-                                             style="background-image: url('https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175_960_720.jpg'); "></div>
-
-
-                                        <div class="banner__content text-left d-flex align-middle">
-                                            <div>
-                                                <div class="banner__title overlap text-uppercase heading-font text-bold text-xl">
-                                                    HOPE KIDS
-                                                </div>
-                                                <div class="banner__desc overlap  heading-font text-bold text-l">
-                                                    Проєкт психологічної реабілітації для дітей постраждалих від війни
-                                                </div>
-                                                <a href=""
-                                                   class="banner__more btn btn-primary text-center">Задонатити</a>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner__inner">
+                                    <div class="parallax-bg">
+                                        <div class="bg rellax full_bg_slider" data-swiper-parallax="30%"
+                                             style="background-image: url('assets/img/news-1.png'); ">
+                                        </div>
+                                    </div>
+                                    <div class="banner__content text-center d-flex align-center align-middle">
+                                        <div class="">
+                                            <div class="banner__title text-right  heading-font text-xl">
+                                                Створюємо <span>комфорт</span>
                                             </div>
+                                            <div class="banner__desc text-light">
+
+
+                                                Ваш надійний постачальник меблевих тканин
+                                            </div>
+                                            <a href="" class="btn btn-primary">Дізнатись про нас</a>
+                                            <a href="" class="btn btn-white">Зв’язатись з нами</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="banner__inner">
-                                        <div class="parallax-bg">
-                                            <div class="bg rellax full_bg_slider" data-swiper-parallax="30%"
-                                                 style="background-image: url('https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175_960_720.jpg'); "></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="banner__inner">
+                                    <div class="parallax-bg">
+                                        <div class="bg rellax full_bg_slider" data-swiper-parallax="30%"
+                                             style="background-image: url('assets/img/news-1.png'); ">
                                         </div>
-
-                                        <div class="opacity"></div>
-
-                                        <div class="banner__content text-left d-flex align-middle">
-
-                                            <div class="banner__title-different overlap text-uppercase heading-font text-xl text-bold">
-                                                Давайте використаємо <span>СЬОГОДНІ</span>, щоб створити
-                                                <span>завтра</span> для наших дітей
+                                    </div>
+                                    <div class="banner__content text-center d-flex align-center align-middle">
+                                        <div class="">
+                                            <div class="banner__title text-right  heading-font text-xl">
+                                                Створюємо <span>комфорт</span>
                                             </div>
+                                            <div class="banner__desc text-light">
 
+
+                                                Ваш надійний постачальник меблевих тканин
+                                            </div>
+                                            <a href="" class="btn btn-primary">Дізнатись про нас</a>
+                                            <a href="" class="btn btn-white">Зв’язатись з нами</a>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
-                        <div class="swiper-button__wrap d-flex  align-middle align-center">
-
-                            <div class="swiper-button-prev d-flex align-center align-middle">
-                                <i class="icon-arrow-left"></i>
-                            </div>
-
-                            <div class="swiper-button-next d-flex align-center align-middle">
-                                <i class="icon-arrow-right"></i>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination d-flex "></div>
                     </div>
                 </div>
-
             </div>
-        </div>
+
+            <div class="swiper-button__wrap">
+                <div class="swiper-button-prev d-flex align-center align-middle">
+                    <i class="icon-ar-left"></i>
+                </div>
+                <div class="swiper-button-next d-flex align-center align-middle">
+                    <i class="icon-ar-right"></i>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -187,7 +178,8 @@
                 <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 column">
                     <div class="s-advantages__content">
                         <h3 class="heading heading-font text-regular text-xl mb-28">Наші переваги</h3>
-                        <div class="text-m  text-light s-advantages__desc"><b>Наступний крок</b> – вивчити, чим хороша кожна тканина і які у неї є
+                        <div class="text-m  text-light s-advantages__desc"><b>Наступний крок</b> – вивчити, чим хороша
+                            кожна тканина і які у неї є
                             слабкі
                             сторони. Це допоможе звузити коло відповідних матеріалів і зробити вибір.
                         </div>
@@ -202,7 +194,9 @@
                             </div>
                             <div class="advantage__content">
                                 <div class="advantage__title text-m text-medium">Доставка</div>
-                                <div class="advantage__description text-light">Доставка по Західній Українні безкоштовна</div>
+                                <div class="advantage__description text-light">Доставка по Західній Українні
+                                    безкоштовна
+                                </div>
                             </div>
                         </div>
 
@@ -254,14 +248,19 @@
                     <img src="assets/img/news-3.png" alt="" class="s-about__img">
                     <h5 class="heading heading-font text-uppercase text-xl text-regular mb-28">Про нас</h5>
                     <div class="text-m editor-style">
-                        <p><b>Компанія “Silk”</b> – офіційний ексклюзивний дистриб’ютор Agmamito в Україні. Компанія “Silk”
-                        була заснована 2017 року, молодою та енергійною командою. За цей нетривалий період часу, завдяки
-                        ретельному відбору постачальників та регулярному моніторингу сучасних технологій, ми створили
-                        широкий асортимент матеріалів найвищої якості за найбільш привабливими цінами. Співробітниками
-                        компанії регулярно відстежуються останні тренди у виробництві меблів, завдяки чому асортимент
-                        пропонованих матеріалів постійно розширюється і оновлюється.</p>
+                        <p><b>Компанія “Silk”</b> – офіційний ексклюзивний дистриб’ютор Agmamito в Україні. Компанія
+                            “Silk”
+                            була заснована 2017 року, молодою та енергійною командою. За цей нетривалий період часу,
+                            завдяки
+                            ретельному відбору постачальників та регулярному моніторингу сучасних технологій, ми
+                            створили
+                            широкий асортимент матеріалів найвищої якості за найбільш привабливими цінами.
+                            Співробітниками
+                            компанії регулярно відстежуються останні тренди у виробництві меблів, завдяки чому
+                            асортимент
+                            пропонованих матеріалів постійно розширюється і оновлюється.</p>
                         <p>Наша компанія здійснює оптову та роздрібну торгівлю різних видів меблевих тканин по всій
-                        території України як зі складу, так і на замовлення.</p>
+                            території України як зі складу, так і на замовлення.</p>
                     </div>
 
                     <div class="btn-more d-flex align-middle align-left text-bold --relative">Читати далi</div>
@@ -282,7 +281,8 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex align-justify">
                     <div class="s-client__content">
                         <h3 class="heading heading-font text-uppercase text-regular text-xl mb-28">Наші клієнти</h3>
-                        <div class="text text-m mb-28 text-light"><b>Нашою метою</b> є створення довготривалих відносин з клієнтами
+                        <div class="text text-m mb-28 text-light"><b>Нашою метою</b> є створення довготривалих відносин
+                            з клієнтами
                             та
                             партнерами.
                             Ми
@@ -398,7 +398,8 @@
                     <div class="best-offer --relative">
                         <div class="best-offer__title-sub text-m text-light">Краща пропозиція</div>
                         <div class="best-offer__title heading-font">Знижка на товар 20%</div>
-                        <div class="best-offer__desc text-m text-light">Для постійних клієнтів діє індивідуальна система знижок, а
+                        <div class="best-offer__desc text-m text-light">Для постійних клієнтів діє індивідуальна система
+                            знижок, а
                             високий сервіс обслуговування – для всіх без винятку.
                         </div>
                         <a href="" class="btn-more d-flex align-middle align-left text-bold --relative">Детальніше</a>
