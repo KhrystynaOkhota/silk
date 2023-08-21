@@ -213,7 +213,7 @@
                     <div class="number-item text-left">
                         <div class="number-item__count --relative">
                             <div class="animate-number number heading-font" data-percent="26500">
-                                <span>2 000+</span>
+                                <span>2000</span>+
                             </div>
                         </div>
 
@@ -670,7 +670,19 @@
 <script src="./assets/js/jquery-3.7.0.min.js"></script>
 <script src="assets/js/swiper-bundle.min.js"></script>
 <script src="assets/js/js_app.min.js"></script>
-
+<script>
+    $('.animate-number span').each(function() {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 2500,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
